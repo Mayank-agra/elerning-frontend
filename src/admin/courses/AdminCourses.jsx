@@ -3,7 +3,7 @@ import Layout from "../utils/Layout";
 import { useNavigate } from "react-router-dom";
 import { CourseData } from "../../context/CourseContext";
 import CourseCard from "../../components/courseCard/courseCard";
-import "./admincourses.css";
+import "./AdminCourses.css";
 import toast from "react-hot-toast";
 import axios from "axios";
 import { server } from "../../main";
