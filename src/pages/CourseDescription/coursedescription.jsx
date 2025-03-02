@@ -6,7 +6,7 @@ import { server } from "../../main";
 import axios from "axios";
 import toast from "react-hot-toast";
 import { UserData } from "../../context/UserContext";
-import Loading from "../../components/loading/Loading";
+import Loading from "../../components/loading/loading";
 
 const CourseDescription = ({ user }) => {
   const params = useParams();
