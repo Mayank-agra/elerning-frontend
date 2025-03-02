@@ -1,8 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import "./home.css";
-import Testimonials from "../../components/testimonials/Testimonials";
-
+import Testimonials from "../../components/testimonials/testimonials";
 const Home = () => {
   const navigate = useNavigate();
   return (
