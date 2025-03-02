@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Layout from "../Utils/Layout";
 import { useNavigate } from "react-router-dom";
 import { CourseData } from "../../context/CourseContext";
-import CourseCard from "../../components/coursecard/CourseCard";
+import CourseCard from "../../components/courseCard/courseCard";
 import "./admincourses.css";
 import toast from "react-hot-toast";
 import axios from "axios";
