@@ -31,8 +31,9 @@ export const CourseContextProvider = ({ children }) => {
   async function fetchMyCourse() {
     try {
       const { data } = await axios.get(`${server}/api/mycourse`, {
+        withCredentials: true,
         headers: {
-          token: localStorage.getItem("token"),
+          Authorization: `Bearer ${localStorage.getItem("token")}`,
         },
       });
 
